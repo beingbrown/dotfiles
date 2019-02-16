@@ -1,1 +1,2 @@
 alias express='docker run --rm -it -v $(pwd):/express/app express_generator'
+alias create-react-app='docker run --rm -it -v $(pwd):/react/app create-react-app'
