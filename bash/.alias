@@ -2,4 +2,5 @@ alias express='docker run --rm -it -v $(pwd):/express/app express_generator'
 alias vim='docker run --rm -it -v $(pwd):/files vim'
 alias vi=vim
 alias create-react-app='docker run --rm -it -v $(pwd):/react/app create-react-app'
-alias dev='docker run --rm -it -v $(pwd):/home/randy/code dev'
+alias dev='docker run --rm -it -v $(pwd):/home/randy/code dev /bin/bash'
+alias npm='docker run --rm -it -v $(pwd):/app npm'
